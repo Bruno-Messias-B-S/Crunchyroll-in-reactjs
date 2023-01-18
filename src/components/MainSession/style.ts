@@ -19,29 +19,19 @@ export const Center = styles.div`
     justify-content:flex-end;
     align-items:center;
     color:white;
-    height:60%;
+    height:100%;
 
     h1 {
         font-size:55px;
-    }
-
-    button {
-        margin-top:40px;
-        font-size: 14px;
-        font-weight:bold;
-        padding:12px;
-        background-color:rgb(244, 117, 33);
-        border:0px solid transparent;
-        cursor:pointer;
     }
 `;
 
 export const Infos = styles.div`
     width:90%;
-    height:40%;
+    height:400px;
     display:flex;
     gap:60px;
-    margin-top:20px;
+    padding-top:50px;
     justify-content:center;
 
     .info-divs {

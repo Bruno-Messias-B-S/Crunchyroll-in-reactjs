@@ -1,12 +1,18 @@
 import './App.css';
-import { MainScene } from './components/MainScene';
+import { Episodes } from './components/Episodes';
+import { MainSession } from './components/MainSession';
 import { NavBar } from './components/NavBar';
+import { Prices } from './components/Prices';
+import { SessionTwo } from './components/SessionTwo';
 
 function App() {
   return (
     <>
       <NavBar />
-      <MainScene />
+      <MainSession />
+      <SessionTwo />
+      <Episodes />
+      <Prices />
     </>
   );
 }

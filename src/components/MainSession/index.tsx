@@ -1,13 +1,14 @@
 import * as C from './style';
+import { Button } from '../Button';
 
-export const MainScene = () => {
+export const MainSession = () => {
     return (
         <>
             <C.Container>
                 <C.Center>
                     <h1>O Maior Catálogo de</h1>
                     <h1>Anime do Mundo</h1>
-                    <button>INICIAR TESTE GRATUITO DE 14 DIAS</button>
+                    <Button marginTop={40} text={'INICIAR TESTE GRATUITO DE 14 DIAS'}/>
                 </C.Center>
                 <C.Infos>
                     <div className="info-divs">
