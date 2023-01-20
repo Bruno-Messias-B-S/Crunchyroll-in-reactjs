@@ -2,11 +2,11 @@ import style from 'styled-components';
 
 export const Prices = style.div`
     display:flex;
+    flex-direction:column;
 `;
 
 export const Box = style.div`
     width:350px;
-    border:4px solid rgb(248, 248, 248);
 
     .container {
         display:flex;
@@ -21,16 +21,19 @@ export const Box = style.div`
     .crown-div {
         width:80px;
         height:80px;
-        background-color:red;
+        background-color:rgb(250, 184, 24);
         display:flex;
-        align-items:center;
         justify-content:center;
+        align-items:center;
+        border-radius:50%;
     }
 
     .crown {
-        fill:white;
-        width:100%;
-        height:10px;
+        width:65%;
+        height:50%;
+        stroke:white;
+        stroke-width:2px;
+        fill:none;
     }
 
     .price {
@@ -40,9 +43,10 @@ export const Box = style.div`
         align-items:center;
         gap:10px;
         font-size:22px;
+        margin-top:-10px;
         
         h2 {
-            font-weight:100;
+            font-weight:500;
         }
 
         p {
@@ -56,10 +60,11 @@ export const Box = style.div`
         justify-content:center;
         align-items:center;
         margin-top:20px;
-        gap:5px;
+        gap:8px;
         padding-bottom:20px;
 
-        button {
+        .btn1,
+        .btn2 {
             padding:9px 10px;
             cursor:pointer;
             font-size:13px;
@@ -68,8 +73,10 @@ export const Box = style.div`
     }
 
     .advantages {
+        margin-bottom:20px;
+
         ul {
-            width:80%;
+            width:85%;
             margin:auto;
 
             li {
@@ -79,21 +86,36 @@ export const Box = style.div`
                 gap:10px;
                 padding-bottom:15px;
                 color:rgb(89, 89, 91);
+                line-height:20px;
 
                 p {
-                    font-size:13px;
+                    font-size:14px;
+                    font-weight:bold;
                 }
             }
         }
 
         .mark1 {
-            width:20px;
+            max-width:20px;
             fill: rgb(244, 117, 33);
         }
 
         .mark2 {
-            width:20px;
-            fill: rgb(74, 78, 88);
+            max-width:20px;
+            fill: rgb(218, 218, 218);
         }
     }
+`;
+
+export const Best = style.div`
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    background-color:rgb(42, 189, 187);
+    padding:10px 0;
+    margin-top:-45px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
 `;

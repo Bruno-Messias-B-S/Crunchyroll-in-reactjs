@@ -1,5 +1,6 @@
 import './App.css';
 import { Episodes } from './components/Episodes';
+import { Footer } from './components/Footer';
 import { MainSession } from './components/MainSession';
 import { NavBar } from './components/NavBar';
 import { Prices } from './components/Prices';
@@ -13,6 +14,7 @@ function App() {
       <SessionTwo />
       <Episodes />
       <Prices />
+      <Footer />
     </>
   );
 }

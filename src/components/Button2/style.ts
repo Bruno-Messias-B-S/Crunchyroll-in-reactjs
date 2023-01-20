@@ -4,13 +4,14 @@ export const Button = styles.div`
     font-size: 14px;
     font-weight:bold;
     padding:10px 15px;
-    background-color:rgb(244, 117, 33);
-    border:2px solid transparent;
+    background-color:transparent;
+    border:2px solid rgb(244, 117, 33);
     cursor:pointer;
-    color:rgb(20, 21, 25);
+    color:rgb(244, 117, 33);
     transition: all 0.2s ease-in-out;
 
     &:hover {
-        background-color:rgb(255, 148, 77);
+      border:2px solid rgb(255, 148, 77);
+      color:rgb(255, 148, 77);
       }
 `;

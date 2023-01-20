@@ -2,7 +2,6 @@ import styles from 'styled-components';
 
 export const Container = styles.div`
     width:100%;
-    height:100vh;
     display:flex;
     justify-content:center;
     flex-direction:column;
@@ -28,10 +27,10 @@ export const Title = styles.div`
 
 export const Boxes = styles.div`
     width:100%;
-    height:100vh;
+    height:100%;
     display:flex;
     justify-content:center;
     align-items:center;
     gap:25px;
-    margin-top:60px;
+    margin-top:100px;
 `;
