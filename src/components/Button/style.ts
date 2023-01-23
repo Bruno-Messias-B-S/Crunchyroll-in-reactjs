@@ -9,6 +9,7 @@ export const Button = styles.div`
     cursor:pointer;
     color:rgb(20, 21, 25);
     transition: all 0.2s ease-in-out;
+    text-align:center;
 
     &:hover {
         background-color:rgb(255, 148, 77);

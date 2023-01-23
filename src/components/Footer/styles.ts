@@ -5,7 +5,7 @@ export const Container = style.div`
 `;
 
 export const Warning = style.div`
-    width:85%;
+    width:86%;
     text-align:center;
     margin:auto;
     padding-top:15px;

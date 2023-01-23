@@ -38,6 +38,7 @@ export const Links = styles.div`
         color:white;
         font-size:13px;
         font-weight:bold;
+        cursor:pointer;
     }
 
     button:last-child {

@@ -1,4 +1,5 @@
 import * as C from './style';
+import { Link } from 'react-router-dom'
 
 export const NavBar = () => {
     return (
@@ -10,7 +11,7 @@ export const NavBar = () => {
                 </C.Logo>
 
                 <C.Links>
-                    <button>LOGIN</button>
+                    <Link style={{textDecoration: 'none', color: 'white'}} to="/login"><button style={{border: 'none'}}>LOGIN</button></Link>
                     <button>NAVEGAR</button>
                 </C.Links>
                 </C.Nav>

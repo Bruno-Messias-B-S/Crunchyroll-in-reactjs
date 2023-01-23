@@ -1,7 +1,7 @@
 import * as C from './style';
 import { Button } from '../Button';
 
-export const SessionTwo = () => {
+export const SectionTwo = () => {
     return (
         <>
             <C.Container>
