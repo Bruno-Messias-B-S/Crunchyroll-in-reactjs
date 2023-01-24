@@ -5,14 +5,14 @@ export const Container = style.div`
 `;
 
 export const Warning = style.div`
-    width:86%;
+    width:1080px;
     text-align:center;
     margin:auto;
     padding-top:15px;
     line-height:19px;
     
     p {
-        font-size:14px;
+        font-size:13px;
         font-weight:bold;
         color:rgb(160, 160, 160);
     }
@@ -23,10 +23,15 @@ export const CreateAcc = style.div`
     text-align:center;
     margin-top:30px;
 
-    span {
+    a {
         color:rgb(244, 117, 33);
         cursor:pointer;
         text-decoration:none;
+    }
+
+    a:hover {
+        text-decoration:underline;
+        text-decoration-color:rgb(244,117,33);
     }
     
     p {
@@ -36,7 +41,7 @@ export const CreateAcc = style.div`
 `;
 
 export const Questions = style.div`
-    margin-top:100px;
+    margin-top:90px;
     margin-bottom:100px;
     width:100%;
     display:flex;
@@ -45,9 +50,14 @@ export const Questions = style.div`
     align-items:center;
     gap:13px;
 
-    span {
+    a {
         color:rgb(244, 117, 33);
         cursor:pointer;
+    }
+    
+    a:hover {
+        text-decoration:underline;
+        text-decoration-color:rgb(244,117,33);
     }
 
     h3 {
@@ -67,6 +77,15 @@ export const Links = style.div`
         display:flex;
         justify-content:center;
         gap:20px;
+
+        a {
+            text-decoration:none;
+        }
+
+        a:hover {
+            text-decoration:underline;
+            text-decoration-color:rgb(244,117,33);
+        }
 
         li {
             list-style-type:none;

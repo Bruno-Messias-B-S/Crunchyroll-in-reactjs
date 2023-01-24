@@ -8,7 +8,7 @@ import { SectionTwo } from '../../components/SectionTwo';
 export const Home = () => {
     return (
         <>
-        <NavBar />
+        <NavBar display={'flex'}/>
         <MainSection />
         <SectionTwo />
         <Episodes />

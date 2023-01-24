@@ -1,16 +1,20 @@
 import * as C from './style';
 import { Link } from 'react-router-dom'
 
-export const NavBar = () => {
+type Props = {
+    display: string
+}
+
+export const NavBar = ({ display }: Props) => {
     return (
         <>
             <C.Container>
                 <C.Nav>
                 <C.Logo>
-                    <img src="https://static.crunchyroll.com/cr-spa-registration/assets/img/logo/cr_logo.png" />
+                    <Link to="/"><img src="https://static.crunchyroll.com/cr-spa-registration/assets/img/logo/cr_logo.png" /></Link>
                 </C.Logo>
 
-                <C.Links>
+                <C.Links style={{display: display}}>
                     <Link style={{textDecoration: 'none', color: 'white'}} to="/login"><button style={{border: 'none'}}>LOGIN</button></Link>
                     <button>NAVEGAR</button>
                 </C.Links>

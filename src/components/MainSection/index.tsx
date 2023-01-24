@@ -1,5 +1,5 @@
 import * as C from './style';
-import { Button } from '../Button';
+import { Button } from '../Buttons/Button';
 
 export const MainSection = () => {
     return (

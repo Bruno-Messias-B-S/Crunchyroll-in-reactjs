@@ -12,15 +12,15 @@ export const Nav = styles.div`
     height:inherit;
     display:flex;
     justify-content:space-between;
+    align-items:center;
     margin:auto;
 `;
 
 export const Logo = styles.div`
-    height:inherit;
-    width:200px;
     display:flex;
     justify-content:flex-start;
     align-items:center;
+    cursor:pointer;
 `;
 
 export const Links = styles.div`

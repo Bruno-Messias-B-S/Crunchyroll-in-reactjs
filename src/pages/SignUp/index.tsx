@@ -1,11 +1,11 @@
-import { LoginForm } from "../../components/Forms/LoginForm"
+import { SignUpForm } from "../../components/Forms/SignUpForm"
 import { NavBar } from "../../components/NavBar"
 
-export const Login = () => {
+export const SignUp = () => {
     return (
         <>
         <NavBar display={'none'}/>
-        <LoginForm />
+        <SignUpForm />
         </>
     )
 }

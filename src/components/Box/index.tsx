@@ -1,4 +1,4 @@
-import { Button } from '../Button';
+import { Button } from '../Buttons/Button';
 import { Button2 } from '../Button2';
 import * as C from './style';
 
