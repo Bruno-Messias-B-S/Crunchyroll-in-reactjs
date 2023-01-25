@@ -41,13 +41,17 @@ export const Links = styles.div`
         cursor:pointer;
     }
 
-    button:last-child {
+    .navBtn {
         border:2px solid white;
     }
 
     @media (min-width: 320px) and (max-width:767px) {
-        .loginBtn {
+        .navBtn {
             display:none;
+        }
+
+        .loginBtn {
+            border:2px solid white;
         }
     }
 `;

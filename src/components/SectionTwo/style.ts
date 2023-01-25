@@ -31,7 +31,7 @@ export const WatchText = styles.div`
 
 
     @media (min-width: 320px) and (max-width:767px) {
-        width:100%;
+        width:90%;
 
         margin-top:60px;
 
@@ -41,6 +41,7 @@ export const WatchText = styles.div`
 
         p {
             line-height:30px;
+            width:100%;
         }
     }
 `;
