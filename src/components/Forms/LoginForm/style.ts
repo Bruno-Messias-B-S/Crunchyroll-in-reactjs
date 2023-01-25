@@ -94,4 +94,18 @@ export const Form = style.div`
         border-bottom:1px solid rgb(244, 117, 33);
     }
 
+
+    @media (min-width:320px) and (max-width:767px) {
+        width:90%;
+        height:560px;
+
+        h1 {
+            font-size:25px;
+        }
+
+        h3 {
+            font-size:16px;
+        }
+    }
+
 `;

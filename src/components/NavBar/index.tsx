@@ -15,8 +15,8 @@ export const NavBar = ({ display }: Props) => {
                 </C.Logo>
 
                 <C.Links style={{display: display}}>
-                    <Link style={{textDecoration: 'none', color: 'white'}} to="/login"><button style={{border: 'none'}}>LOGIN</button></Link>
-                    <button>NAVEGAR</button>
+                    <Link style={{textDecoration: 'none', color: 'white'}} to="/login"><button style={{border: 'none'}} className="loginBtn">LOGIN</button></Link>
+                    <button className="navBtn">NAVEGAR</button>
                 </C.Links>
                 </C.Nav>
             </C.Container>

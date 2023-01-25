@@ -15,10 +15,24 @@ export const Container = styles.div`
     h1 {
         font-weight:500;
         font-size:35px;
+        text-align:center;
+    }
+
+
+    @media (min-width: 320px) and (max-width:767px) {
+        margin-top:15px;
+
+        h1 {
+            font-size:25px;
+        }
     }
 `;
 
 export const Images = styles.div`
     display:flex;
     gap:19px;
+
+    @media (min-width: 320px) and (max-width:767px) {
+        gap:13px;
+     }
 `;

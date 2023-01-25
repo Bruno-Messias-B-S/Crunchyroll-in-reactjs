@@ -28,14 +28,35 @@ export const WatchText = styles.div`
         font-size:18px;
         color:#595856;
     }
+
+
+    @media (min-width: 320px) and (max-width:767px) {
+        width:100%;
+
+        margin-top:60px;
+
+        h1 {
+            font-size:30px;
+        }
+
+        p {
+            line-height:30px;
+        }
+    }
 `;
 
 export const SessionBanner = styles.div`
-    margin-top:-70px;
+    margin-top:-50px;
     background-image: url('https://img1.ak.crunchyroll.com/i/spire2/2e66d7205717a911bfea0f1eee8d89281665701603_main.png');
     background-repeat: no-repeat;
-    background-size:cover;
     background-position:center;
+    background-size:cover;
     width:100%;
-    height:100vh;
+    height:600px;
+
+
+    @media (min-width: 320px) and (max-width:767px) {
+        width:100%;
+        margin-top:-70px;
+    }
 `;

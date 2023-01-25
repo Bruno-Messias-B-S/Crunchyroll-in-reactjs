@@ -44,4 +44,10 @@ export const Links = styles.div`
     button:last-child {
         border:2px solid white;
     }
+
+    @media (min-width: 320px) and (max-width:767px) {
+        .loginBtn {
+            display:none;
+        }
+    }
 `;

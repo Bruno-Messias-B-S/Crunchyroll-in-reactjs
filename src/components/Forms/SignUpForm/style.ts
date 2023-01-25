@@ -113,4 +113,18 @@ export const Form = style.div`
             font-size:15px;
         }
     }
+
+
+    @media (min-width:320px) and (max-width:767px) {
+        width:90%;
+        height:560px;
+
+        h1 {
+            font-size:25px;
+        }
+
+        h3 {
+            font-size:16px;
+        }
+    }
 `;

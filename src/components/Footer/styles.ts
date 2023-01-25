@@ -16,6 +16,19 @@ export const Warning = style.div`
         font-weight:bold;
         color:rgb(160, 160, 160);
     }
+
+    
+    @media (min-width: 320px) and (max-width:768px) {
+        width:90%;
+        
+        p {
+            font-size:15px;
+        }
+    }
+
+    @media (min-width:1024px) {
+        width:90%;
+    }
 `;
 
 export const CreateAcc = style.div`
@@ -37,6 +50,12 @@ export const CreateAcc = style.div`
     p {
         font-size:18px;
         font-weight:600;
+    }
+
+
+    @media (min-width: 320px) and (max-width:767px) {
+        width:90%;
+        margin:30px auto;
     }
 `;
 
@@ -68,6 +87,13 @@ export const Questions = style.div`
     p {
         font-size:18px;
     }
+
+
+    @media (min-width: 320px) and (max-width:767px) {
+        width:90%;
+        margin:90px auto;
+        text-align:center;
+    }
 `;
 
 export const Links = style.div`
@@ -97,6 +123,25 @@ export const Links = style.div`
         .thingy {
             color:rgb(218, 218, 218);
             cursor:default;
+        }
+    }
+
+
+    @media (min-width: 320px) and (max-width:767px) {
+        width:90%;
+        margin:100px auto;
+        text-align:center;
+
+        ul {
+            flex-direction:column;
+
+            .thingy {
+                display:none;
+            }
+
+            a {
+                font-size:15px;
+            }
         }
     }
 `;

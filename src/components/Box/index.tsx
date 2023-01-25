@@ -1,5 +1,5 @@
 import { Button } from '../Buttons/Button';
-import { Button2 } from '../Button2';
+import { Button2 } from '../Buttons/Button2';
 import * as C from './style';
 
 type Props = {

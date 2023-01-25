@@ -105,6 +105,25 @@ export const Box = style.div`
             fill: rgb(218, 218, 218);
         }
     }
+
+
+    @media (min-width: 320px) and (max-width:767px) {
+        width:100%;
+        margin:auto;
+
+        .buttons {
+            width:80%;
+            margin:20px auto;
+        }
+    }
+
+    @media (min-width:768px) and (max-width:1023px) {
+        width:450px;
+    }
+
+    @media (min-width:1024px) {
+        width:310px;
+    }
 `;
 
 export const Best = style.div`
