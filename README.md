@@ -27,6 +27,7 @@
 Make sure "Git" is installed in your PC!
 
     git clone https://github.com/Bruno-Messias-B-S/Crunchyroll-in-reactjs
+    npm install
 
 ## Made By
 [Bruno Messias](https://www.linkedin.com/in/bruno-messias-bs/)
